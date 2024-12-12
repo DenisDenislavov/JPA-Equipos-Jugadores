@@ -18,31 +18,31 @@ public class Aplicacion {
 
         // Crear equipos
         Equipo equipo1 = new Equipo();
-        equipo1.setNombre("Equipo A");
-        equipo1.setEstadio("Estadio A");
+        equipo1.setNombre("Real Madrid");
+        equipo1.setEstadio("Bernabeu");
 
         Equipo equipo2 = new Equipo();
-        equipo2.setNombre("Equipo B");
-        equipo2.setEstadio("Estadio B");
+        equipo2.setNombre("Barcelona");
+        equipo2.setEstadio("Camp nou");
 
         equipoDAO.insertar(equipo1);
         equipoDAO.insertar(equipo2);
 
         // Crear jugadores
         Jugador jugador1 = new Jugador();
-        jugador1.setNombre("Jugador 1");
+        jugador1.setNombre("Vinicius");
         jugador1.setEstatura(1.85f);
         jugador1.setPeso(80.0f);
         jugador1.setEquipo(equipo1);
 
         Jugador jugador2 = new Jugador();
-        jugador2.setNombre("Jugador 2");
+        jugador2.setNombre("Mbappe");
         jugador2.setEstatura(1.90f);
         jugador2.setPeso(85.0f);
         jugador2.setEquipo(equipo1);
 
         Jugador jugador3 = new Jugador();
-        jugador3.setNombre("Jugador 3");
+        jugador3.setNombre("Lamine Yamal");
         jugador3.setEstatura(1.78f);
         jugador3.setPeso(75.0f);
         jugador3.setEquipo(equipo2);
